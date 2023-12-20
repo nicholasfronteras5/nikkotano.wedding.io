@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Queen of Wedding Collection</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="y-icon" href="Queenicon.png">
+</head>
+<body>
+<div class="w3-top">
+<div class="w3-bar w3-white w3-wide w3-padding">
+<a href="#home" class="w3-bar-item w3-button" style="font-family: 'Courier New', Courier, monospace; font-size: 20px;" > <img src="Queenicon.png" alt="Logo" class="logo"><b>Queen of Wedding</b></a>
+    <style>
+            .w3-bar-item img.logo {
+                height: 30px; /* Adjust the height of the logo as needed */
+                margin-right: 5px; /* Adjust the margin to separate the logo from the text */
+            }
+
+            .w3-bar-item {
+                color: rgb(17, 17, 17);
+            }
+
+            .w3-dropdown-hover.w3-hide-small {
+                color: rgb(17, 17, 17);
+            }
+            .logo-container {
+                position: relative;
+                overflow: hidden;
+            }
+
+            .logo {
+                width: 30px; /* Set the initial size of your logo */
+                transition: transform 0.3s ease, rotate 0.5s ease; /* Add smooth transitions for both zoom and rotate */
+            }
+
+            .logo:hover {
+                animation: zoomInAndRoll 0.5s forwards; /* Apply the combined zoom-in and roll animation on hover */
+            }
+
+    @keyframes zoomInAndRoll {
+        0% {
+                transform: scale(1) rotate(0deg);
+            }
+        50% {
+                transform: scale(1.2) rotate(180deg); /* Set the zoomed-in scale and half rotation */
+            }
+        100% {
+                transform: scale(1) rotate(360deg); /* Set the final rotation */
+            }
+            }
+    </style>
+<div class="w3-right w3-hide-small">    
+<a href="#HOME" class="w3-bar-item w3-button"></a>
+<div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button"  title="Notifications"><div class="w3-dropdown-hover w3-hide-small" id="home"></div>MENU</button>    
+    <style>
+        .w3-dropdown-hover.w3-hide-small.w3-border {
+          border-radius: 10px; 
+        }
+        .w3-dropdown-hover.w3-hide-small.w3-border button {
+          border-radius: inherit; 
+        }
+
+    </style> 
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#Bridal Gown" class="w3-bar-item w3-button">Bridal Gown</a>
+      <a href="#Grooms Suit" class="w3-bar-item w3-button">Grooms Suit</a>
+      <a href="#Accessories" class="w3-bar-item w3-button">Wedding Accessories</a>
+      <a href="#Bridal Cars" class="w3-bar-item w3-button">Bridal Cars</a>
+    </div>
+    <style>
+        .w3-dropdown-content {
+          background-color: rgb(249, 250, 246);
+          border: 1px solid #cccaca00;
+          border-radius: 5px;
+        }
+      </style>
+  </div>
+<div class="w3-bar-item"><b>|</b></div>
+<a href="#about" class="w3-bar-item w3-button">ABOUT US</a>
+    <style>
+    .w3-bar-item.w3-button.w3-border {
+      border-radius: 10px;
+    }
+    </style>
+<div class="w3-bar-item"><b>|</b></div>
+<a href="#contact" class="w3-bar-item w3-button">CONTACT US</a>
+</div>
+</div>
+</div>
+
+<!-- Header -->
+
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
+    <div class="w3-display-middle w3-padding">
+        <h1 class="w3-center w3-text-white" style="font-size: 100%;"><b>Best Price & Offer</b></h1>
+        <p class="w3-center w3-text-white" style="font-size: 120%; font-family: 'Arial', sans-serif;">Explore our amazing deals and discounts</p>
+    </div>
+    <img src="headerpic.jpg" alt="Car" style="width: 100%" height="700">
+</header>
+
+<!-- Series Section -->
+
+<div class="w3-container w3-padding-32" id="Bridal Gown"></div>
+<div class="w3-container w3-padding-32" id="action">
+<h3 class="w3-border-bottom w3-center w3-border-light-grey w3-padding-16" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Bridal Gown</h3>
+<div class="w3-row-padding">
+<div class="w3-col l3 m6 w3-margin-bottom">
+<div class="w3-display-container">
+<div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Sexy Corset Wedding Gown"</div>
+    <img id="videoImage" src="Gown1.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+    <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Satin Mermaid Gown"</div>
+        <img id="videoImage" src="Gown 2.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Modern Luxe Bridal Gown"</div>
+        <img id="videoImage" src="gown3.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Dreamy Ballgown"</div>
+        <img id="videoImage" src="gown4.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Chicks Wedding Gown"</div>
+        <img id="videoImage" src="gown5.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Barbara| Wedding Dress"</div>
+        <img id="videoImage" src="gown6.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Ruffled Tier Dress!"</div>
+        <img id="videoImage" src="gown7.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Ballgown Half Dress"</div>
+        <img id="videoImage" src="gown8.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Timeless with twist-a look"</div>
+        <img id="videoImage" src="gown9.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Winter Wedding Gown"</div>
+        <img id="videoImage" src="gown10.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Monet Inspired Wedding Dress"</div>
+        <img id="videoImage" src="gown11.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Carol Hannah's Gown"</div>
+        <img id="videoImage" src="gown12.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Modern Square Neck"</div>
+        <img id="videoImage" src="gown13.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Elegant Bridal Dress"</div>
+        <img id="videoImage" src="gown14.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Salt Wedding Gown"</div>
+        <img id="videoImage" src="gown15.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Utterly Ramantic Dresses"</div>
+        <img id="videoImage" src="gown16.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Lace Wedding Dresses"</div>
+        <img id="videoImage" src="gown17.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Vintage Romance Gown"</div>
+        <img id="videoImage" src="gown18.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Evening Dress Design"</div>
+        <img id="videoImage" src="gown19.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Ethereal Gown"</div>
+        <img id="videoImage" src="gown20.jpg" alt="Image to play MP4 video" style="width:100%;" height="400"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+
+
+<div class="w3-container w3-padding-32" id="Grooms Suit"></div>
+<div class="w3-container w3-padding-32" id="action">
+<h3 class="w3-border-bottom w3-center w3-border-light-grey w3-padding-16" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Grooms Suit</h3>
+<div class="w3-row-padding">
+<div class="w3-col l3 m6 w3-margin-bottom">
+<div class="w3-display-container">
+<div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Black Lapel Tie Suit"</div>
+        <img id="videoImage" src="Grooms1.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"J.Crew"</div>
+            <img id="videoImage" src="Grooms2.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Bonobos"</div>
+            <img id="videoImage" src="Grooms3.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+<div class="w3-display-container">
+<div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Zara"</div>
+        <img id="videoImage" src="Grooms14.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+        <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Topman Suit"</div>
+                <img id="videoImage" src="Grooms5.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+                <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Brooks Brothers"</div>
+            <img id="videoImage" src="Grooms6.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Tommy Hilfiger"</div>
+            <img id="videoImage" src="Grooms7.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Ralph Lauren"</div>
+            <img id="videoImage" src="Grooms8.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Calvin Klein Groom Suit"</div>
+            <img id="videoImage" src="Grooms9.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Moss Bros"</div>
+            <img id="videoImage" src="Grooms10.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"H&M"</div>
+            <img id="videoImage" src="Grooms11.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Suitsupply"</div>
+            <img id="videoImage" src="Grooms12.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Men's Wearhouse"</div>
+            <img id="videoImage" src="Grooms13.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Jos. A. Bank"</div>
+            <img id="videoImage" src="Grooms14.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Indochino"</div>
+            <img id="videoImage" src="Grooms15.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Tux Suit"</div>
+            <img id="videoImage" src="Grooms16.jpg" alt="Image to play MP4 video" style="width:100%;" height="350"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+
+
+<div class="w3-container w3-padding-32" id="Accessories"></div>
+<div class="w3-container w3-padding-32" id="action">
+<h3 class="w3-border-bottom w3-center w3-border-light-grey w3-padding-16" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Wedding Accessories</h3>
+<div class="w3-row-padding">
+<div class="w3-col l3 m6 w3-margin-bottom">
+<div class="w3-display-container">
+<div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Vine Leaf Pearl Rose Gold"</div>
+        <img id="videoImage" src="Accesssories1.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Jewelry Necklace"</div>
+            <img id="videoImage" src="Accesssories2.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Rhinestone Wedding Crown"</div>
+            <img id="videoImage" src="Accesssories3.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+<div class="w3-display-container">
+<div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Rhinestone Wedding Headband"</div>
+        <img id="videoImage" src="Accesssories4.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+        <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Airy Roamntic Crown"</div>
+                <img id="videoImage" src="Accesssories5.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+                <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Hortenseien Rose"</div>
+            <img id="videoImage" src="Accesssories6.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Baroque Queen Crown"</div>
+            <img id="videoImage" src="Accesssories7.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Contemporary Blush Pink Sandals"</div>
+            <img id="videoImage" src="Accesssories8.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Rose Gold Crystal Necklace"</div>
+            <img id="videoImage" src="Accesssories9.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Charlotte Wedding Earrings"</div>
+            <img id="videoImage" src="Accesssories10.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Gold & Diamond Wedding Ring"</div>
+            <img id="videoImage" src="Accesssories11.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Gold Leaf Wedding Rings Couples"</div>
+            <img id="videoImage" src="Accesssories12.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Rose Gold Nacklace & Earrings"</div>
+            <img id="videoImage" src="Accesssories13.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Art Deco Shoes"</div>
+            <img id="videoImage" src="Accesssories14.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Crystal Necklace"</div>
+            <img id="videoImage" src="Accesssories15.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Classic Engagement Rings"</div>
+            <img id="videoImage" src="Accesssories16.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+
+
+</div>
+<div class="w3-container w3-padding-32" id="Bridal Cars"></div>
+<div class="w3-container w3-padding-32" id="action">
+<h3 class="w3-border-bottom w3-center w3-border-light-grey w3-padding-16" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Bridal Cars</h3>
+<div class="w3-row-padding">
+<div class="w3-col l3 m6 w3-margin-bottom">
+<div class="w3-display-container">
+<div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Limo Wedding Car"</div>
+        <img id="videoImage" src="car.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Mercedes Irony"</div>
+            <img id="videoImage" src="car2.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Mercedes Top Gear Wedding Car"</div>
+            <img id="videoImage" src="car3.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+<div class="w3-display-container">
+<div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Audi M12 Bridal Car"</div>
+        <img id="videoImage" src="car4.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+        <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+        <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Luxury Car"</div>
+                <img id="videoImage" src="car5.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+                <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Happy Car Nap"</div>
+            <img id="videoImage" src="car6.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Audi X Reader wedding Car"</div>
+            <img id="videoImage" src="car7.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Caritoon Bridal Car"</div>
+            <img id="videoImage" src="car8.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Indea Idea Car"</div>
+            <img id="videoImage" src="car9.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Rose Car Dakoresan"</div>
+            <img id="videoImage" src="car10.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Pink Car Bridal Car"</div>
+            <img id="videoImage" src="car11.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Jaguar XF Car"</div>
+            <img id="videoImage" src="car12.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Van Tam Wedding Car"</div>
+            <img id="videoImage" src="car13.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Van Car"</div>
+            <img id="videoImage" src="car14.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Sexy Corset"</div>
+            <img id="videoImage" src="car15.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+<div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-display-container">
+    <div class="w3-center w3-padding" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"Hatdog Car"</div>
+            <img id="videoImage" src="car16.jpg" alt="Image to play MP4 video" style="width:100%;" height="300"></a>
+            <video id="videoPlayer" style="display: none;"></video>
+</div>
+</div>
+
+
+    <style>
+    #videoImage {
+          width: 100%;
+          transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+        }
+    
+        #videoImage:hover {
+          transform: scale(1.05); /* Increase the scale factor for zoom effect */
+        }
+    
+        /* Additional styles for the black overlay and padding */
+        .w3-display-topleft {
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: black;
+          color: white;
+          padding: 10px;
+          z-index: 1; /* Ensure the overlay is on top of the image */
+        }
+    </style>
+</div>
+</div>
+</div>
+
+<!-- About Section -->
+
+<div class="w3-container w3-padding-32" id="about">
+<h3><b>About Us:</b></h3>
+<p><b>About Queen Wedding Shop Collection </b>
+<br>
+Welcome to the Queen Wedding Shop Collection, your enchanting destination for bridal elegance and groom's sophistication.
+Nestled in the heart of Ampayon, our boutique is a haven for couples seeking the perfect ensembles to make their wedding dreams come true.
+<br>
+<p><b>A Symphony of Bridal Elegance and Groom's Style:</b>   
+    At Queen Wedding Shop, we curate a collection that celebrates the beauty of love in every stitch. From stunning bridal gowns that embody 
+    romance and grace to impeccably tailored groom's suits exuding modern charm, our range reflects the diversity of love stories, ensuring that 
+    every couple finds the attire that complements their unique journey.
+<br>  
+<p><b>Bridal Gowns Beyond Imagination:</b>
+    Step into a world where bridal fantasies come to life. Our bridal gown collection showcases a spectrum of styles, from fairytale ballgowns 
+    adorned with intricate lace to sleek and contemporary designs that redefine bridal fashion. With attention to detail and a commitment to quality,
+    each gown is a masterpiece that transforms brides into radiant queens on their special day.
+<br>   
+<p><b>Groom's Suits Redefined:</b>
+    For the dashing groom, our collection of suits is a blend of sophistication and modern flair. From classic tuxedos to tailored suits in a variety of fabrics and colors, 
+    we ensure that the groom looks as exceptional as the love he's celebrating. Our expert stylists are here to guide you in finding the perfect ensemble that reflects your 
+    personal style.
+<br>
+<p><b>More Than Just Attire:</b>
+    At Queen Wedding Shop, we go beyond the gown and suit. Explore our curated selection of accessories, veils, and shoes to add the perfect finishing touches to your bridal look. 
+    With an eye for trends and a commitment to quality, we provide everything you need to create a cohesive and stunning ensemble.
+<br>
+<p><b>Personalized Service, Unforgettable Experience:</b>
+    Shopping for your wedding attire should be a joyous experience. Our attentive and knowledgeable staff are dedicated to providing personalized service, ensuring that every 
+    visit to Queen Wedding Shop is memorable. We listen to your dreams, understand your vision, and help you find the attire that makes your wedding day truly magical.
+<br>
+<br>
+<br>
+    <b>Follow us on:</b>
+<br>
+    <i class="fa fa-facebook-official"></i>
+    <a href="https://www.facebook.com/nicholas.fronteras.5/" target="_blank">
+        https://www.facebook.com/nicholas.fronteras.5/</a>
+<br>
+    <i class="fa fa-instagram"></i>
+    <a href="https://www.instagram.com/your_instagram_username/" target="_blank">
+        https://www.instagram.com/nikko.nikz/</a>
+<br>
+<div class="w3-row-padding">
+    <div class="w3-center">
+    <b>Embark on your journey to forever with Queen Wedding Shop Collection — where bridal dreams and groom's style come to life in a symphony of elegance.</b>
+</div>
+<br>
+</p>
+</div>
+
+<!--End Page-->
+
+<div class="w3-row-padding">
+<div class="w3-col l3 m6 w3-center w3-margin-bottom">
+<img src="niks.jpg" alt="Gulaver" style="width: 100%;" height="350">
+<h3><B>Nicho F. Taño</B></h3>
+<p class="w3-opacity">CCIS-1st Year Student</p>
+<p>"Do not be afraid or terrified because of them, for the Lord your
+    God goes with you; he will never leave you nor forsake you."</p>
+<p><button class="w3-button w3-light-grey w3-block" onclick="showMessage('Notification sent successfully!')">Contact</button></p>
+</div>
+<div class="w3-center w3-col l3 m6 w3-margin-bottom">
+<img src="ciel.jpg" alt="Apal" style="width:100%;" height="350">
+<h3><b>Jiecel Acierda</b></h3>
+<p class="w3-opacity">CCIS-1st Year Student</p>
+<p>"Girls who are ignored can learn to be impossible, can learn to 
+    listen, and look, and learn more than they were ever meant to know.” "</p>
+<p><button class="w3-button w3-light-grey w3-block" onclick="showMessage('Notification sent successfully!')">Contact</button></p>
+</div>
+<div class="w3-col l3 m6 w3-center w3-margin-bottom">
+<img src="james.jpg" alt="James" style="width: 100%;" height="350">
+<h3><b>James Earl Cubillas</b></h3>
+<p class="w3-opacity">IT Graduate</p>
+<p>"Teachers have three loves: love of learning, love of learners, and the 
+    love of bringing the first two loves together." –Scott Hayden"</p>
+<p><button class="w3-button w3-light-grey w3-block" onclick="showMessage('Notification sent successfully!')">Contact</button></p>
+</div>
+    <style>
+        .w3-button.w3-light-grey.w3-block {
+            border-radius: 20px;
+        }
+    </style>
+
+<!-- Contact Section -->
+
+<div class="w3-container w3-padding-32" id="contact">
+<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">How's our service?</h3>
+<p>Please leave suggestion or comment so that we can improve our services.</p>
+
+<form id="myForm" action="/action_page.php" target="_blank">
+<input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+    <style>
+    .w3-input.w3-border {
+      border-radius: 10px;
+    }
+    </style>
+<input class="w3-input w3-section w3-border" type="text" placeholder="Email" required
+name="Email">
+<input class="w3-input w3-section w3-border" type="text" placeholder="Suggestion"
+required name="Suggestion">
+<input class="w3-input w3-section w3-border" type="text" placeholder="Comment"
+required name="Comment">
+    <style>
+    .w3-input.w3-section.w3-border {
+      border-radius: 10px;
+    }
+    </style>
+<button class="w3-button w3-white w3-section" type="button" onclick="sendMessage()">
+<i class="fa fa-paper-plane"></i> Send Message</button>
+    <style>
+    .w3-button.w3-white {
+      border-radius: 10px;
+    }
+    </style>
+<script>
+    function sendMessage() {
+        var name = document.forms["myForm"]["Name"].value;
+        var email = document.forms["myForm"]["Email"].value;
+        var suggestion = document.forms["myForm"]["Suggestion"].value;
+        var comment = document.forms["myForm"]["Comment"].value;
+
+        if (name !== "" && email !== "" && suggestion !== "" && comment !== "") {
+            // Check if the email contains the "@" symbol
+            if (email.includes("@")) {
+                showMessage('Message sent successfully!');
+                // You can add more functionality here, such as form submission using AJAX
+            } else {
+                alert("Please enter a valid email address.");
+            }
+        } else {
+            alert("Please fill out all fields in the form.");
+        }
+    }
+    function showMessage(message) {
+        alert(message);
+        // You can add more functionality here, such as form submission using AJAX
+    }
+</script>
+</form>
+</div>
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+    <p>&copy;2023 <b>Queen of Wedding </b><u>All Rights Reserve.</u></p>
+</footer>
+
+</body>
+</html
